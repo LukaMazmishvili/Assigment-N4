@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Activity2">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="surname"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+995 ***********"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
